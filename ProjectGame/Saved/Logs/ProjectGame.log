@@ -1588,3 +1588,102 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.11.09-17.51.55:055][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.11.09-17.51.55:060][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
 [2025.11.09-17.51.55:124][934]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.11.09-17.56.30:658][970]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.09-17.56.30:676][970]LogContentBundle: [Mountains(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.09-17.56.30:676][970]LogWorldPartition: Display: GenerateStreaming for 'Mountains' started...
+[2025.11.09-17.56.30:678][970]LogWorldPartition: Display: GenerateStreaming for 'Mountains' took 2.239 ms (total: 13.684 ms)
+[2025.11.09-17.56.30:680][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.09-17.56.30:680][970]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountains
+[2025.11.09-17.56.30:717][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037078s)
+[2025.11.09-17.56.30:717][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountains.Mountains to /Game/Maps/UEDPIE_0_Mountains.Mountains (0.037139s)
+[2025.11.09-17.56.30:738][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.11.09-17.56.30:740][970]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.11.09-17.56.30:741][970]LogWorldPartition: ULevel::OnLevelLoaded(Mountains)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.09-17.56.30:741][970]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.09-17.56.30:741][970]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Mountains.Mountains, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.09-17.56.30:741][970]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.09-17.56.30:745][970]LogContentBundle: [Mountains(Standalone)] Creating new container.
+[2025.11.09-17.56.30:745][970]LogWorldPartition: Display: WorldPartition initialize took 4.516 ms (total: 4.32 sec)
+[2025.11.09-17.56.30:745][970]LogPlayLevel: PIE: World Init took: (0.005892s)
+[2025.11.09-17.56.30:765][970]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.11.09-17.56.30:765][970]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.09-17.56.30:765][970]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.09-17.56.30:765][970]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.09-17.56.30:765][970]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.09-17.56.30:765][970]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.09-17.56.30:766][970]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.09-17.56.30:766][970]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.09-17.56.30:766][970]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.09-17.56.30:766][970]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.09-17.56.30:766][970]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.09-17.56.30:766][970]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.09-17.56.30:767][970]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.09-17.56.30:796][970]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.11.09-17.56.30:796][970]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.09-17.56.30:796][970]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.09-17.56.30:796][970]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.09-17.56.30:797][970]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.11.09-17.56.30:797][970]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.11.09-17.56.30:798][970]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.11.09-17.56.30:798][970]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.11.09-17.56.30:798][970]LogInit: FAudioDevice initialized with ID 5.
+[2025.11.09-17.56.30:798][970]LogAudio: Display: Audio Device (ID: 5) registered with world 'Mountains'.
+[2025.11.09-17.56.30:798][970]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.11.09-17.56.30:801][970]LogLoad: Game class is 'BP_GameBase_C'
+[2025.11.09-17.56.30:809][970]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountains.Mountains up for play (max tick rate 0) at 2025.11.09-18.56.30
+[2025.11.09-17.56.30:809][970]LogWorld: Bringing up level for play took: 0.007648
+[2025.11.09-17.56.30:811][970]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.11.09-17.56.30:838][970]PIE: Server logged in
+[2025.11.09-17.56.30:839][970]PIE: Play in editor total start time 0,17 seconds.
+[2025.11.09-17.56.37:373][382]LogBlueprintUserMessages: [WhiteClover_C_UAID_D88083CC16D242A002_1658039074] Picked up clover
+[2025.11.09-17.56.58:134][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.09-17.56.58:134][715]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Mountains
+[2025.11.09-17.56.58:134][715]LogWorld: UWorld::CleanupWorld for Mountains, bSessionEnded=true, bCleanupResources=true
+[2025.11.09-17.56.58:137][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.09-17.56.58:137][715]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Mountains.Mountains
+[2025.11.09-17.56.58:137][715]LogContentBundle: [Mountains(Standalone)] Deleting container.
+[2025.11.09-17.56.58:137][715]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.11.09-17.56.58:137][715]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.11.09-17.56.58:142][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.09-17.56.58:147][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.09-17.56.58:168][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.09-17.56.58:170][715]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.11.09-17.56.58:170][715]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.11.09-17.56.58:173][715]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.11.09-17.56.58:183][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.11.09-17.56.58:262][716]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.11.09-17.57.30:566][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.11.09-17.57.32:197][987]LogSlate: Window 'Save Content' being destroyed
+[2025.11.09-17.57.32:212][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.09-17.57.32:376][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/MapTemplates/Materials/BasicAsset02] ([1] browsable assets)...
+[2025.11.09-17.57.32:394][987]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/MapTemplates/Materials/BasicAsset02.BasicAsset02]
+[2025.11.09-17.57.32:395][987]OBJ SavePackage: Finished generating thumbnails for package [/Engine/MapTemplates/Materials/BasicAsset02]
+[2025.11.09-17.57.32:395][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/MapTemplates/Materials/BasicAsset02" FILE="../../../Engine/Content/MapTemplates/Materials/BasicAsset02.uasset" SILENT=true
+[2025.11.09-17.57.32:396][987]LogSavePackage: Moving output files for package: /Engine/MapTemplates/Materials/BasicAsset02
+[2025.11.09-17.57.32:397][987]LogSavePackage: Moving '../../../../../../Users/admin/Desktop/game/GETeeamProject/ProjectGame/Saved/BasicAsset024DD020C043CE4BA0612B41B852CFFCDE.tmp' to '../../../Engine/Content/MapTemplates/Materials/BasicAsset02.uasset'
+[2025.11.09-17.57.32:398][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant] ([1] browsable assets)...
+[2025.11.09-17.57.32:407][987]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant.M_BaseColor_Constant]
+[2025.11.09-17.57.32:408][987]OBJ SavePackage: Finished generating thumbnails for package [/Engine/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant]
+[2025.11.09-17.57.32:409][987]LogSavePackage: Moving output files for package: /Engine/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant
+[2025.11.09-17.57.32:410][987]LogSavePackage: Moving '../../../../../../Users/admin/Desktop/game/GETeeamProject/ProjectGame/Saved/M_BaseColor_Constant6D68AC764CD5A33F3A8CA3B6BD497737.tmp' to '../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant.uasset'
+[2025.11.09-17.57.32:412][987]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WhiteClover] ([2] browsable assets)...
+[2025.11.09-17.57.32:429][987]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/WhiteClover.WhiteClover]
+[2025.11.09-17.57.32:429][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WhiteClover]
+[2025.11.09-17.57.32:429][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WhiteClover" FILE="../../../../../../Users/admin/Desktop/game/GETeeamProject/ProjectGame/Content/Blueprints/WhiteClover.uasset" SILENT=true
+[2025.11.09-17.57.32:437][987]LogSavePackage: Moving output files for package: /Game/Blueprints/WhiteClover
+[2025.11.09-17.57.32:438][987]LogSavePackage: Moving '../../../../../../Users/admin/Desktop/game/GETeeamProject/ProjectGame/Saved/WhiteCloverD574C86242B9798D4373B9834394E2D3.tmp' to '../../../../../../Users/admin/Desktop/game/GETeeamProject/ProjectGame/Content/Blueprints/WhiteClover.uasset'
+[2025.11.09-17.57.32:451][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 239.410 ms (total: 600.483 ms)
+[2025.11.09-17.57.32:684][987]LogContentValidation: Display: Starting to validate 3 assets
+[2025.11.09-17.57.32:684][987]LogContentValidation: Enabled validators:
+[2025.11.09-17.57.32:684][987]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.09-17.57.32:684][987]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.09-17.57.32:684][987]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.09-17.57.32:684][987]LogContentValidation: Display: Validating asset /Engine/MapTemplates/Materials/BasicAsset02.BasicAsset02
+[2025.11.09-17.57.32:684][987]AssetCheck: /Engine/MapTemplates/Materials/BasicAsset02 Validating asset
+[2025.11.09-17.57.32:684][987]LogContentValidation: Display: Validating asset /Engine/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant.M_BaseColor_Constant
+[2025.11.09-17.57.32:684][987]AssetCheck: /Engine/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant Validating asset
+[2025.11.09-17.57.32:684][987]LogContentValidation: Display: Validating asset /Game/Blueprints/WhiteClover.WhiteClover
+[2025.11.09-17.57.32:684][987]AssetCheck: /Game/Blueprints/WhiteClover Validating asset
+[2025.11.09-17.57.43:586][ 78]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 691.212097
+[2025.11.09-17.57.44:586][ 81]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.09-17.57.44:586][ 81]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 691.878784, Update Interval: 334.580536
