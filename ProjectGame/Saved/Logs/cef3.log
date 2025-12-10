@@ -1,0 +1,20 @@
+[1208/161153.205:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 35
+[1208/161348.866:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1208/162612.469:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 321
+[1208/162614.377:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[1208/162614.642:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[1208/162615.683:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[1208/162615.936:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[1208/171412.203:WARNING:gpu_process_host.cc(1296)] The GPU process has crashed 1 time(s)
+[1208/171412.227:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[1208/171413.097:WARNING:gpu_process_host.cc(1016)] Reinitialized the GPU process after a crash. The reported initialization time was 604 ms
