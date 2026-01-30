@@ -1,0 +1,4 @@
+[0130/152548.449:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0130/152549.116:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0130/152549.497:WARNING:storage_block-inl.h(146)] Failed data load.
+[0130/152749.019:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
